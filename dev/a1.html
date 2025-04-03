@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Die besten Witze der Welt</title>
+</head>
+<script src="../jquery/jquery-3.7.1.min.js"></script>
+
+<style>
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    .div1 {
+        grid-area: 1 / 1 / 2 / 3;
+    }
+</style>
+
+<body>
+
+    <h1>Die Besten Witze der Welt</h1>
+    <div class="parent">
+        <div class="div1">
+            <select id="select" size="10"></select>
+    </div>
+
+    <div id="inhalt"></div>
+    </div>
+
+
+    <script src="./a1.js"></script>
+
+</body>
+
+</html>
